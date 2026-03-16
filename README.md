@@ -8,7 +8,7 @@ Report bugs, typos, and ideas for [Icesus MUD](https://icesus.org) — a free mu
 ```
 bug report The shop crashes when I sell arrows
 bug typo Room description says "teh" instead of "the"
-bug idea Make the outworld map show quest markers
+bug idea Add fishing to this lake!
 ```
 
 You'll see a preview of your report before it's sent, so you can review and confirm.
