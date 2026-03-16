@@ -15,6 +15,16 @@ You'll see a preview of your report before it's sent, so you can review and conf
 
 > 💡 **Pro tip:** Don't report "add fishing to the lake" as an idea — Icesus already has an extensive fishing system! Grab a rod, head to the lake, and give it a try. If you have *improvement* ideas for fishing though, we're all ears! 🎣
 
+### Classified (private) reports
+
+Some issues shouldn't be public — security exploits, player conduct, or personal matters. Use:
+
+```
+bug classified <description>
+```
+
+Classified reports are filed to a **private repository** that only game administrators can access. You will not be able to read your report back after filing — this is by design. Wizards will be notified immediately.
+
 ### Viewing and tracking bugs
 ```
 bug list                 See all open bugs
@@ -49,6 +59,16 @@ bug comment <number> <text>      Add a comment
 bug assign <number> <github>     Assign to a GitHub user
 bug relabel <number> <type>      Re-categorize (bug/typo/idea)
 ```
+
+Classified report management:
+```
+bug classified list              Open classified reports
+bug classified view <number>     View a classified report
+bug classified resolve <#> <note>  Close with a comment
+bug classified comment <#> <text>  Add a comment
+```
+
+Wizards are alerted on login when there are open classified reports, and new reports trigger a wiz-info channel notification with a direct link.
 
 Or manage issues directly here on GitHub — add labels, assign, comment, close. Everything stays in sync with the in-game commands.
 
