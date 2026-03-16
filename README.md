@@ -6,19 +6,21 @@ Report bugs, typos, and ideas for [Icesus MUD](https://icesus.org) — a free mu
 
 ### In-game (easiest — your location and state are auto-attached)
 ```
-bug The shop crashes when I sell arrows
+bug report The shop crashes when I sell arrows
 bug typo Room description says "teh" instead of "the"
 bug idea Make the outworld map show quest markers
 ```
 
+You'll see a preview of your report before it's sent, so you can review and confirm.
+
 > 💡 **Pro tip:** Don't report "add fishing to the lake" as an idea — Icesus already has an extensive fishing system! Grab a rod, head to the lake, and give it a try. If you have *improvement* ideas for fishing though, we're all ears! 🎣
 
-### More in-game commands
+### Viewing and tracking bugs
 ```
-bug list              See all open bugs
-bug mine              See bugs you filed
-bug search <keyword>  Search for bugs
-bug <number>          View details of a specific bug
+bug list                 See all open bugs
+bug view <number>        View details of a specific bug
+bug mine                 See bugs you reported
+bug search <keyword>     Search for bugs
 ```
 
 ### On GitHub
@@ -45,6 +47,7 @@ Wizard-only commands in-game:
 bug resolve <number> <note>      Close a bug with a comment
 bug comment <number> <text>      Add a comment
 bug assign <number> <github>     Assign to a GitHub user
+bug relabel <number> <type>      Re-categorize (bug/typo/idea)
 ```
 
 Or manage issues directly here on GitHub — add labels, assign, comment, close. Everything stays in sync with the in-game commands.
@@ -54,6 +57,6 @@ Or manage issues directly here on GitHub — add labels, assign, comment, close.
 Icesus is a free, non-profit multiplayer text adventure set on the frozen planet of Aegic. Online since 1995, maintained by volunteers.
 
 - 🌐 **Website:** [icesus.org](https://icesus.org)
-- 🎮 **Play now:** [Browser client](http://89.167.95.12) (no download needed)
+- 🎮 **Play now:** [play.icesus.org](https://play.icesus.org) (no download needed)
 - 💬 **Discord:** [discord.gg/j9cSPyAzQb](https://discord.gg/j9cSPyAzQb)
 - ⭐ **Vote for us:** [Mudverse](https://www.mudverse.com/vote/645) | [MudVault](https://mudvault.org/?id=131)
